@@ -1,23 +1,24 @@
-SUBMITTED BY:
-AYUSH PANDA 
-BTECH CSE
-SECOND YEAR STUDENT
-NIT RKL
+AYUSH PANDA  
+B.Tech in Computer Science and Engineering  
+2nd Year Student  
+National Institute of Technology, Rourkela
+
 
 Please refer only to my soccer project rest are just practise codes .
 CHECK RESULT IMAGES AT RESULTSOCCERTACTICAM.PNG AND RESULTSOCCERBROADCAST.PNG
 This project focuses on detecting and identifying football players (Red & White teams) and the goalkeeper from broadcast and tactical camera videos using a custom-trained YOLOv11 model.
 My model path here is soccerproject\runs\detect\train3\weights\best.pt
 soccerproject/
-├── train/  Training images and labels 90 in number randomly taken by 50 - 50 images and labels from both videos each 100 total
-├── val/ Validation images and labels 10 in number
-├── images/  Extracted frames from videos
-├── main.py  Frame extraction script
-├── predict.py  PNG/video prediction visualizer using cv2 module 
-├── dataset_custom.yaml # Custom dataset config
-├── best.pt # Final trained YOLOv11 model
-├── runs/ # YOLOv11 training logs
-└── README.md
+├── train/                # 90 training images (50 from each video)
+├── val/                  # 10 validation images
+├── images/               # Extracted frames from both videos
+├── main.py               # Script for extracting frames from .mp4 files
+├── predict.py            # Prediction visualizer (PNG/video) using OpenCV
+├── dataset_custom.yaml   # YOLOv11 dataset configuration
+├── best.pt               # Final YOLOv11 model weights
+├── runs/                 # Training logs and outputs (YOLO default)
+└── README.md             # This documentation
+
 
 I PREPARED MY ANNOTATIONS USING LABEL_STUDIO ON 100 IMAGES 50 FROM EACH AND RANDOMLY DISTRIBUTE IT FO5 TRAINING AND VALIDATION .
 performance on validation dataset and batch_size=12 :
