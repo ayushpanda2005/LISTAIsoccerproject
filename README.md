@@ -5,6 +5,7 @@ SECOND YEAR STUDENT
 NIT RKL
 
 Please refer only to my soccer project rest are just practise codes .
+CHECK RESULT IMAGES AT RESULTSOCCERTACTICAM.PNG AND RESULTSOCCERBROADCAST.PNG
 This project focuses on detecting and identifying football players (Red & White teams) and the goalkeeper from broadcast and tactical camera videos using a custom-trained YOLOv11 model.
 My model path here is soccerproject\runs\detect\train3\weights\best.pt
 soccerproject/
