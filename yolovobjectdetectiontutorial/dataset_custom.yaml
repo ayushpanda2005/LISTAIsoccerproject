@@ -1,0 +1,5 @@
+train: C:\Users\Arctic-LianLi\OneDrive\Desktop\cv\yolovobjectdetectiontutorial\train
+val: C:\Users\Arctic-LianLi\OneDrive\Desktop\cv\yolovobjectdetectiontutorial\val
+
+nc: 2
+names: ["greenlight","redlight"]
